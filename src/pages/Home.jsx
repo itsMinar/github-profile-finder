@@ -1,10 +1,11 @@
-import UserResults from '../components/users/UserResults';
+import UserResults from "../components/users/UserResults";
+import UserSearch from "../components/users/UserSearch";
 
 export default function Home() {
-    return (
-        <>
-            {/* Search Component */}
-            <UserResults />
-        </>
-    );
+  return (
+    <>
+      <UserSearch />
+      <UserResults />
+    </>
+  );
 }
